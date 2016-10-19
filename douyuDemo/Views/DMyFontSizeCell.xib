@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="134" id="KGk-i7-Jjw" customClass="DMyFontSizeCell" customModule="douyuDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="492" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="492" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iJN-CH-UBv">
+                        <rect key="frame" x="51" y="52" width="385" height="31"/>
+                    </slider>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_alpha_small" translatesAutoresizingMaskIntoConstraints="NO" id="b6m-8y-zku">
+                        <rect key="frame" x="28" y="57" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="13R-dj-5Ci"/>
+                            <constraint firstAttribute="width" constant="20" id="9LE-wF-U2h"/>
+                            <constraint firstAttribute="width" constant="20" id="LJ4-us-KNI"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9LE-wF-U2h"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image_alpha_big" translatesAutoresizingMaskIntoConstraints="NO" id="Wh0-Cy-H9b">
+                        <rect key="frame" x="442" y="54" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="pwp-XK-eYB"/>
+                            <constraint firstAttribute="width" constant="25" id="uzK-XF-Ugw"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iJN-CH-UBv" firstAttribute="leading" secondItem="b6m-8y-zku" secondAttribute="trailing" constant="5" id="3GC-xf-40N"/>
+                    <constraint firstItem="b6m-8y-zku" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="A2q-yM-Jgy"/>
+                    <constraint firstItem="iJN-CH-UBv" firstAttribute="leading" secondItem="b6m-8y-zku" secondAttribute="trailing" constant="5" id="B4W-Ha-DO6"/>
+                    <constraint firstItem="Wh0-Cy-H9b" firstAttribute="leading" secondItem="iJN-CH-UBv" secondAttribute="trailing" constant="5" id="IfU-pX-uPn"/>
+                    <constraint firstItem="Wh0-Cy-H9b" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="diU-Ut-zec"/>
+                    <constraint firstItem="b6m-8y-zku" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="oaV-6j-mbc"/>
+                    <constraint firstItem="Wh0-Cy-H9b" firstAttribute="leading" secondItem="b6m-8y-zku" secondAttribute="trailing" constant="5" id="rdI-uv-Dsr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Wh0-Cy-H9b" secondAttribute="trailing" constant="20" id="u8L-Gg-Nzf"/>
+                    <constraint firstItem="iJN-CH-UBv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wSa-cL-aiL"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="B4W-Ha-DO6"/>
+                        <exclude reference="rdI-uv-Dsr"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bigLabel" destination="Wh0-Cy-H9b" id="fTw-aw-RmY"/>
+                <outlet property="fontSlider" destination="iJN-CH-UBv" id="DZj-CE-dqa"/>
+                <outlet property="smallLabel" destination="b6m-8y-zku" id="d5K-bN-beB"/>
+            </connections>
+            <point key="canvasLocation" x="474" y="156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Image_alpha_big" width="21" height="21"/>
+        <image name="Image_alpha_small" width="15" height="15"/>
+    </resources>
+</document>

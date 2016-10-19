@@ -7,15 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1302F01233CDDE66F2577D53 /* Pods_douyuDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF6A05748FD14A708F009CB /* Pods_douyuDemo.framework */; };
+		BC0AFF6A1DB22F5D000278EA /* DRecommedAdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0AFF691DB22F5D000278EA /* DRecommedAdModel.swift */; };
+		BC1BCAB81DB1DB02009B99B8 /* DMyFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCAB61DB1DB02009B99B8 /* DMyFirstCell.swift */; };
+		BC1BCAB91DB1DB02009B99B8 /* DMyFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1BCAB71DB1DB02009B99B8 /* DMyFirstCell.xib */; };
+		BC1BCABB1DB1DCE6009B99B8 /* Reusable+CSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCABA1DB1DCE6009B99B8 /* Reusable+CSExtensions.swift */; };
+		BC1BCABF1DB1EEF5009B99B8 /* DMySetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCABE1DB1EEF5009B99B8 /* DMySetViewController.swift */; };
+		BC1BCAC21DB1F120009B99B8 /* UILabel+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCAC01DB1F120009B99B8 /* UILabel+Util.swift */; };
+		BC1BCAC31DB1F120009B99B8 /* UIButton+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCAC11DB1F120009B99B8 /* UIButton+Util.swift */; };
+		BC1BCACE1DB20B5C009B99B8 /* DMyFontSizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCACC1DB20B5C009B99B8 /* DMyFontSizeCell.swift */; };
+		BC1BCACF1DB20B5C009B99B8 /* DMyFontSizeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1BCACD1DB20B5C009B99B8 /* DMyFontSizeCell.xib */; };
+		BC1BCAD31DB21CD4009B99B8 /* DRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCAD21DB21CD4009B99B8 /* DRecommendViewController.swift */; };
+		BC1BCAD61DB21EA0009B99B8 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCAD51DB21EA0009B99B8 /* Const.swift */; };
+		BC1BCAD81DB21EA6009B99B8 /* MyDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BCAD71DB21EA6009B99B8 /* MyDownloader.swift */; };
+		BC36C5E11DB5165100F2F520 /* DRecommendNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36C5E01DB5165100F2F520 /* DRecommendNewCell.swift */; };
 		BC8A5FF11DB1149D0091A293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A5FF01DB1149D0091A293 /* AppDelegate.swift */; };
 		BC8A5FF31DB1149D0091A293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A5FF21DB1149D0091A293 /* ViewController.swift */; };
 		BC8A5FF61DB1149E0091A293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8A5FF41DB1149E0091A293 /* Main.storyboard */; };
 		BC8A5FF91DB1149E0091A293 /* douyuDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC8A5FF71DB1149E0091A293 /* douyuDemo.xcdatamodeld */; };
 		BC8A5FFB1DB1149E0091A293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8A5FFA1DB1149E0091A293 /* Assets.xcassets */; };
 		BC8A5FFE1DB1149E0091A293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8A5FFC1DB1149E0091A293 /* LaunchScreen.storyboard */; };
+		BC8A600A1DB11CB20091A293 /* DCustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A60091DB11CB20091A293 /* DCustomTabBarViewController.swift */; };
+		BC8A600C1DB11EEE0091A293 /* DHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A600B1DB11EEE0091A293 /* DHelp.swift */; };
+		BC8A60111DB1BB2F0091A293 /* DBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A60101DB1BB2F0091A293 /* DBaseTableViewController.swift */; };
+		BC8A60131DB1C5C60091A293 /* DMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A60121DB1C5C60091A293 /* DMyViewController.swift */; };
+		BCD435F01DB771AA00E850B4 /* DCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD435EF1DB771AA00E850B4 /* DCategoryModel.swift */; };
+		BCD435F21DB77E4C00E850B4 /* DrecommendCateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD435F11DB77E4C00E850B4 /* DrecommendCateCell.swift */; };
+		BCD435F51DB78A5300E850B4 /* DcateCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD435F31DB78A5200E850B4 /* DcateCollectionCell.swift */; };
+		BCD435F61DB78A5300E850B4 /* DcateCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD435F41DB78A5200E850B4 /* DcateCollectionCell.xib */; };
+		BCD435FE1DB7A78100E850B4 /* DcolumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD435FD1DB7A78100E850B4 /* DcolumnViewController.swift */; };
+		BCD436001DB7AB8F00E850B4 /* DcolumnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD435FF1DB7AB8F00E850B4 /* DcolumnModel.swift */; };
+		BCD436031DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD436011DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift */; };
+		BCD436041DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD436021DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib */; };
+		BCF119621DB64F950034C441 /* DNewPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF119611DB64F950034C441 /* DNewPeopleView.swift */; };
+		BCF119641DB6576E0034C441 /* DNewPeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF119631DB6576E0034C441 /* DNewPeopleModel.swift */; };
+		BCF119701DB7353E0034C441 /* DRecommendSectionHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF1196F1DB7353E0034C441 /* DRecommendSectionHead.swift */; };
+		BCF119721DB735A80034C441 /* DRecommendSectionHead.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF119711DB735A80034C441 /* DRecommendSectionHead.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F6FA1D83A4E200BD2FDA049 /* Pods-douyuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-douyuDemo/Pods-douyuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		96252E6EEF3CE88E9C82DEF8 /* Pods-douyuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-douyuDemo/Pods-douyuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0AFF691DB22F5D000278EA /* DRecommedAdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRecommedAdModel.swift; sourceTree = "<group>"; };
+		BC1BCAB61DB1DB02009B99B8 /* DMyFirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMyFirstCell.swift; sourceTree = "<group>"; };
+		BC1BCAB71DB1DB02009B99B8 /* DMyFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMyFirstCell.xib; sourceTree = "<group>"; };
+		BC1BCABA1DB1DCE6009B99B8 /* Reusable+CSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reusable+CSExtensions.swift"; sourceTree = "<group>"; };
+		BC1BCABE1DB1EEF5009B99B8 /* DMySetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMySetViewController.swift; sourceTree = "<group>"; };
+		BC1BCAC01DB1F120009B99B8 /* UILabel+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Util.swift"; sourceTree = "<group>"; };
+		BC1BCAC11DB1F120009B99B8 /* UIButton+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Util.swift"; sourceTree = "<group>"; };
+		BC1BCACC1DB20B5C009B99B8 /* DMyFontSizeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMyFontSizeCell.swift; sourceTree = "<group>"; };
+		BC1BCACD1DB20B5C009B99B8 /* DMyFontSizeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMyFontSizeCell.xib; sourceTree = "<group>"; };
+		BC1BCAD21DB21CD4009B99B8 /* DRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRecommendViewController.swift; sourceTree = "<group>"; };
+		BC1BCAD51DB21EA0009B99B8 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		BC1BCAD71DB21EA6009B99B8 /* MyDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDownloader.swift; sourceTree = "<group>"; };
+		BC36C5E01DB5165100F2F520 /* DRecommendNewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRecommendNewCell.swift; sourceTree = "<group>"; };
 		BC8A5FED1DB1149D0091A293 /* douyuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8A5FF01DB1149D0091A293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8A5FF21DB1149D0091A293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +69,23 @@
 		BC8A5FFA1DB1149E0091A293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8A5FFD1DB1149E0091A293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC8A5FFF1DB1149E0091A293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8A60091DB11CB20091A293 /* DCustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCustomTabBarViewController.swift; sourceTree = "<group>"; };
+		BC8A600B1DB11EEE0091A293 /* DHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHelp.swift; sourceTree = "<group>"; };
+		BC8A60101DB1BB2F0091A293 /* DBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBaseTableViewController.swift; sourceTree = "<group>"; };
+		BC8A60121DB1C5C60091A293 /* DMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMyViewController.swift; sourceTree = "<group>"; };
+		BCD435EF1DB771AA00E850B4 /* DCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCategoryModel.swift; sourceTree = "<group>"; };
+		BCD435F11DB77E4C00E850B4 /* DrecommendCateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrecommendCateCell.swift; sourceTree = "<group>"; };
+		BCD435F31DB78A5200E850B4 /* DcateCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DcateCollectionCell.swift; sourceTree = "<group>"; };
+		BCD435F41DB78A5200E850B4 /* DcateCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DcateCollectionCell.xib; sourceTree = "<group>"; };
+		BCD435FD1DB7A78100E850B4 /* DcolumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DcolumnViewController.swift; sourceTree = "<group>"; };
+		BCD435FF1DB7AB8F00E850B4 /* DcolumnModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DcolumnModel.swift; sourceTree = "<group>"; };
+		BCD436011DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DColumnCollectionViewCell.swift; sourceTree = "<group>"; };
+		BCD436021DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DColumnCollectionViewCell.xib; sourceTree = "<group>"; };
+		BCF119611DB64F950034C441 /* DNewPeopleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNewPeopleView.swift; sourceTree = "<group>"; };
+		BCF119631DB6576E0034C441 /* DNewPeopleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNewPeopleModel.swift; sourceTree = "<group>"; };
+		BCF1196F1DB7353E0034C441 /* DRecommendSectionHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRecommendSectionHead.swift; sourceTree = "<group>"; };
+		BCF119711DB735A80034C441 /* DRecommendSectionHead.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRecommendSectionHead.xib; sourceTree = "<group>"; };
+		EEF6A05748FD14A708F009CB /* Pods_douyuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_douyuDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +93,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1302F01233CDDE66F2577D53 /* Pods_douyuDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25F2E644557E90E18A8408F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6A05748FD14A708F009CB /* Pods_douyuDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1BCAD11DB219EF009B99B8 /* MyViews */ = {
+			isa = PBXGroup;
+			children = (
+				BC1BCAB61DB1DB02009B99B8 /* DMyFirstCell.swift */,
+				BC1BCAB71DB1DB02009B99B8 /* DMyFirstCell.xib */,
+				BC1BCACC1DB20B5C009B99B8 /* DMyFontSizeCell.swift */,
+				BC1BCACD1DB20B5C009B99B8 /* DMyFontSizeCell.xib */,
+			);
+			name = MyViews;
+			sourceTree = "<group>";
+		};
 		BC8A5FE41DB1149D0091A293 = {
 			isa = PBXGroup;
 			children = (
 				BC8A5FEF1DB1149D0091A293 /* douyuDemo */,
 				BC8A5FEE1DB1149D0091A293 /* Products */,
+				D83F108D35F7C4ECD17D154F /* Pods */,
+				25F2E644557E90E18A8408F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +140,10 @@
 		BC8A5FEF1DB1149D0091A293 /* douyuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC8A60061DB118E80091A293 /* Models */,
+				BC8A60071DB118E80091A293 /* MyUtil */,
+				BC8A60081DB118E80091A293 /* Views */,
+				BC8A60051DB118E80091A293 /* Controllers */,
 				BC8A5FF01DB1149D0091A293 /* AppDelegate.swift */,
 				BC8A5FF21DB1149D0091A293 /* ViewController.swift */,
 				BC8A5FF41DB1149E0091A293 /* Main.storyboard */,
@@ -67,6 +155,77 @@
 			path = douyuDemo;
 			sourceTree = "<group>";
 		};
+		BC8A60051DB118E80091A293 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC8A60091DB11CB20091A293 /* DCustomTabBarViewController.swift */,
+				BC8A60101DB1BB2F0091A293 /* DBaseTableViewController.swift */,
+				BC8A60121DB1C5C60091A293 /* DMyViewController.swift */,
+				BC1BCABE1DB1EEF5009B99B8 /* DMySetViewController.swift */,
+				BC1BCAD21DB21CD4009B99B8 /* DRecommendViewController.swift */,
+				BCD435FD1DB7A78100E850B4 /* DcolumnViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC8A60061DB118E80091A293 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC0AFF691DB22F5D000278EA /* DRecommedAdModel.swift */,
+				BCF119631DB6576E0034C441 /* DNewPeopleModel.swift */,
+				BCD435EF1DB771AA00E850B4 /* DCategoryModel.swift */,
+				BCD435FF1DB7AB8F00E850B4 /* DcolumnModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC8A60071DB118E80091A293 /* MyUtil */ = {
+			isa = PBXGroup;
+			children = (
+				BC1BCAC01DB1F120009B99B8 /* UILabel+Util.swift */,
+				BC1BCAC11DB1F120009B99B8 /* UIButton+Util.swift */,
+				BC1BCABA1DB1DCE6009B99B8 /* Reusable+CSExtensions.swift */,
+				BC8A600B1DB11EEE0091A293 /* DHelp.swift */,
+				BC1BCAD51DB21EA0009B99B8 /* Const.swift */,
+				BC1BCAD71DB21EA6009B99B8 /* MyDownloader.swift */,
+			);
+			path = MyUtil;
+			sourceTree = "<group>";
+		};
+		BC8A60081DB118E80091A293 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC1BCAD11DB219EF009B99B8 /* MyViews */,
+				BCD435FA1DB7A38800E850B4 /* Recdommend */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCD435FA1DB7A38800E850B4 /* Recdommend */ = {
+			isa = PBXGroup;
+			children = (
+				BC36C5E01DB5165100F2F520 /* DRecommendNewCell.swift */,
+				BCF119611DB64F950034C441 /* DNewPeopleView.swift */,
+				BCF1196F1DB7353E0034C441 /* DRecommendSectionHead.swift */,
+				BCF119711DB735A80034C441 /* DRecommendSectionHead.xib */,
+				BCD435F11DB77E4C00E850B4 /* DrecommendCateCell.swift */,
+				BCD435F31DB78A5200E850B4 /* DcateCollectionCell.swift */,
+				BCD435F41DB78A5200E850B4 /* DcateCollectionCell.xib */,
+				BCD436011DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift */,
+				BCD436021DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib */,
+			);
+			name = Recdommend;
+			sourceTree = "<group>";
+		};
+		D83F108D35F7C4ECD17D154F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96252E6EEF3CE88E9C82DEF8 /* Pods-douyuDemo.debug.xcconfig */,
+				6F6FA1D83A4E200BD2FDA049 /* Pods-douyuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC8A60021DB1149E0091A293 /* Build configuration list for PBXNativeTarget "douyuDemo" */;
 			buildPhases = (
+				B95A6DE1EFFC5C02BFC5A974 /* [CP] Check Pods Manifest.lock */,
 				BC8A5FE91DB1149D0091A293 /* Sources */,
 				BC8A5FEA1DB1149D0091A293 /* Frameworks */,
 				BC8A5FEB1DB1149D0091A293 /* Resources */,
+				EB55C8D496F30A3059FCE39C /* [CP] Embed Pods Frameworks */,
+				52BC6A890FAD5F7247FD7778 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,18 +291,95 @@
 				BC8A5FFE1DB1149E0091A293 /* LaunchScreen.storyboard in Resources */,
 				BC8A5FFB1DB1149E0091A293 /* Assets.xcassets in Resources */,
 				BC8A5FF61DB1149E0091A293 /* Main.storyboard in Resources */,
+				BCD435F61DB78A5300E850B4 /* DcateCollectionCell.xib in Resources */,
+				BC1BCAB91DB1DB02009B99B8 /* DMyFirstCell.xib in Resources */,
+				BC1BCACF1DB20B5C009B99B8 /* DMyFontSizeCell.xib in Resources */,
+				BCF119721DB735A80034C441 /* DRecommendSectionHead.xib in Resources */,
+				BCD436041DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52BC6A890FAD5F7247FD7778 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-douyuDemo/Pods-douyuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95A6DE1EFFC5C02BFC5A974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB55C8D496F30A3059FCE39C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-douyuDemo/Pods-douyuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC8A5FE91DB1149D0091A293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1BCABB1DB1DCE6009B99B8 /* Reusable+CSExtensions.swift in Sources */,
+				BC1BCAD81DB21EA6009B99B8 /* MyDownloader.swift in Sources */,
 				BC8A5FF91DB1149E0091A293 /* douyuDemo.xcdatamodeld in Sources */,
+				BC8A60111DB1BB2F0091A293 /* DBaseTableViewController.swift in Sources */,
+				BC1BCAC21DB1F120009B99B8 /* UILabel+Util.swift in Sources */,
+				BC36C5E11DB5165100F2F520 /* DRecommendNewCell.swift in Sources */,
+				BC1BCAB81DB1DB02009B99B8 /* DMyFirstCell.swift in Sources */,
+				BC1BCAD61DB21EA0009B99B8 /* Const.swift in Sources */,
+				BC1BCAD31DB21CD4009B99B8 /* DRecommendViewController.swift in Sources */,
+				BCD435F51DB78A5300E850B4 /* DcateCollectionCell.swift in Sources */,
+				BCF119701DB7353E0034C441 /* DRecommendSectionHead.swift in Sources */,
+				BC1BCABF1DB1EEF5009B99B8 /* DMySetViewController.swift in Sources */,
 				BC8A5FF31DB1149D0091A293 /* ViewController.swift in Sources */,
+				BC8A600C1DB11EEE0091A293 /* DHelp.swift in Sources */,
+				BCF119641DB6576E0034C441 /* DNewPeopleModel.swift in Sources */,
+				BC1BCACE1DB20B5C009B99B8 /* DMyFontSizeCell.swift in Sources */,
+				BC8A600A1DB11CB20091A293 /* DCustomTabBarViewController.swift in Sources */,
+				BC1BCAC31DB1F120009B99B8 /* UIButton+Util.swift in Sources */,
+				BCD436001DB7AB8F00E850B4 /* DcolumnModel.swift in Sources */,
+				BCD435F21DB77E4C00E850B4 /* DrecommendCateCell.swift in Sources */,
+				BCF119621DB64F950034C441 /* DNewPeopleView.swift in Sources */,
+				BC0AFF6A1DB22F5D000278EA /* DRecommedAdModel.swift in Sources */,
+				BC8A60131DB1C5C60091A293 /* DMyViewController.swift in Sources */,
+				BCD435FE1DB7A78100E850B4 /* DcolumnViewController.swift in Sources */,
+				BCD435F01DB771AA00E850B4 /* DCategoryModel.swift in Sources */,
+				BCD436031DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift in Sources */,
 				BC8A5FF11DB1149D0091A293 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +491,7 @@
 		};
 		BC8A60031DB1149E0091A293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96252E6EEF3CE88E9C82DEF8 /* Pods-douyuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = douyuDemo/Info.plist;
@@ -263,6 +503,7 @@
 		};
 		BC8A60041DB1149E0091A293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6FA1D83A4E200BD2FDA049 /* Pods-douyuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = douyuDemo/Info.plist;
@@ -291,6 +532,7 @@
 				BC8A60041DB1149E0091A293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

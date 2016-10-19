@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (3.4.1)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SnapKit (0.21.1)
+  - SwiftyJSON (2.3.2)
+  - WPAttributedMarkup (1.0.0)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - SDCycleScrollView
+  - SnapKit (~> 0.0)
+  - SwiftyJSON (~> 2.0)
+  - WPAttributedMarkup
+  - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+
+PODFILE CHECKSUM: e838d32ce63322159379ca0528bf38c6e9a928e1
+
+COCOAPODS: 1.0.1

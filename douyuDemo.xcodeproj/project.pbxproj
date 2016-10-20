@@ -39,6 +39,8 @@
 		BCD436001DB7AB8F00E850B4 /* DcolumnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD435FF1DB7AB8F00E850B4 /* DcolumnModel.swift */; };
 		BCD436031DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD436011DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift */; };
 		BCD436041DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD436021DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib */; };
+		BCD436061DB7B80000E850B4 /* DLiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD436051DB7B80000E850B4 /* DLiveListViewController.swift */; };
+		BCD436081DB850C700E850B4 /* DLiveListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD436071DB850C700E850B4 /* DLiveListModel.swift */; };
 		BCF119621DB64F950034C441 /* DNewPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF119611DB64F950034C441 /* DNewPeopleView.swift */; };
 		BCF119641DB6576E0034C441 /* DNewPeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF119631DB6576E0034C441 /* DNewPeopleModel.swift */; };
 		BCF119701DB7353E0034C441 /* DRecommendSectionHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF1196F1DB7353E0034C441 /* DRecommendSectionHead.swift */; };
@@ -81,6 +83,8 @@
 		BCD435FF1DB7AB8F00E850B4 /* DcolumnModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DcolumnModel.swift; sourceTree = "<group>"; };
 		BCD436011DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DColumnCollectionViewCell.swift; sourceTree = "<group>"; };
 		BCD436021DB7ACCC00E850B4 /* DColumnCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DColumnCollectionViewCell.xib; sourceTree = "<group>"; };
+		BCD436051DB7B80000E850B4 /* DLiveListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLiveListViewController.swift; sourceTree = "<group>"; };
+		BCD436071DB850C700E850B4 /* DLiveListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLiveListModel.swift; sourceTree = "<group>"; };
 		BCF119611DB64F950034C441 /* DNewPeopleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNewPeopleView.swift; sourceTree = "<group>"; };
 		BCF119631DB6576E0034C441 /* DNewPeopleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNewPeopleModel.swift; sourceTree = "<group>"; };
 		BCF1196F1DB7353E0034C441 /* DRecommendSectionHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRecommendSectionHead.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 				BC1BCABE1DB1EEF5009B99B8 /* DMySetViewController.swift */,
 				BC1BCAD21DB21CD4009B99B8 /* DRecommendViewController.swift */,
 				BCD435FD1DB7A78100E850B4 /* DcolumnViewController.swift */,
+				BCD436051DB7B80000E850B4 /* DLiveListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				BCF119631DB6576E0034C441 /* DNewPeopleModel.swift */,
 				BCD435EF1DB771AA00E850B4 /* DCategoryModel.swift */,
 				BCD435FF1DB7AB8F00E850B4 /* DcolumnModel.swift */,
+				BCD436071DB850C700E850B4 /* DLiveListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -369,6 +375,7 @@
 				BC8A5FF31DB1149D0091A293 /* ViewController.swift in Sources */,
 				BC8A600C1DB11EEE0091A293 /* DHelp.swift in Sources */,
 				BCF119641DB6576E0034C441 /* DNewPeopleModel.swift in Sources */,
+				BCD436081DB850C700E850B4 /* DLiveListModel.swift in Sources */,
 				BC1BCACE1DB20B5C009B99B8 /* DMyFontSizeCell.swift in Sources */,
 				BC8A600A1DB11CB20091A293 /* DCustomTabBarViewController.swift in Sources */,
 				BC1BCAC31DB1F120009B99B8 /* UIButton+Util.swift in Sources */,
@@ -381,6 +388,7 @@
 				BCD435F01DB771AA00E850B4 /* DCategoryModel.swift in Sources */,
 				BCD436031DB7ACCC00E850B4 /* DColumnCollectionViewCell.swift in Sources */,
 				BC8A5FF11DB1149D0091A293 /* AppDelegate.swift in Sources */,
+				BCD436061DB7B80000E850B4 /* DLiveListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

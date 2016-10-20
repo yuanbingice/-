@@ -83,7 +83,8 @@ class DRecommendViewController: DBaseTableViewController {
         
         // GET 的请求方式
         let urlString = String(format: "%@%@", kRecommendNewUrl, nowTimeString)
-       
+        //print(urlString,"新人接口")
+        
         let downloader = MyDownloader()
         downloader.type = .NewPeople  //新秀类型
         

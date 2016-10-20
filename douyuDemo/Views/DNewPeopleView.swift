@@ -24,7 +24,8 @@ class DNewPeopleView: UIView {
         let imageView = UIImageView()
         //利用第三方库,加载网络图片
         imageView.setImageWithURL(NSURL(string: imageUrl), placeholder: UIImage(named: "Image_head"))
-            
+        //print("新秀头像为",imageUrl)
+        
         self.addSubview(imageView)
         imageView.snp_makeConstraints { (make) in
             

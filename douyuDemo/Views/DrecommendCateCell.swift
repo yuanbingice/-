@@ -24,9 +24,9 @@ class DrecommendCateCell: UITableViewCell {
         
         flowLayout.itemSize = CGSizeMake(kScreenWidth/2-10, kScreenWidth/2-15)
         flowLayout.minimumLineSpacing = 10
-        flowLayout.minimumInteritemSpacing = 0  //行间距
+        flowLayout.minimumInteritemSpacing = 5  //行间距
         //设置边距
-        flowLayout.sectionInset = UIEdgeInsetsMake(10, 5, 5, 10)
+        flowLayout.sectionInset = UIEdgeInsetsMake(10, 5, 10, 5)
         
         collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: flowLayout)
         //要加到cell的contentView

@@ -19,6 +19,8 @@ target 'douyuDemo' do
   #方便我们去设置 AttributedString // 简单的图文混排,设置文字属性,设置 label 某些文字的点击事件,可以加载网络图片
   pod "WPAttributedMarkup"
   
+  #下拉刷新
+  pod "MJRefresh"
 
   # Pods for douyuDemo
 

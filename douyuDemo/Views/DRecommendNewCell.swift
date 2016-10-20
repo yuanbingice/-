@@ -41,8 +41,8 @@ class DRecommendNewCell: UITableViewCell {
             let model = array[i]
             
             let frame = CGRectMake(CGFloat((i+1)*5+i*90), 5, 90, 130)
-            //拼接头像的url
-            let imageUrl = String(format: "%@%@%@%@", kHeadImageUrl, model.owner_uid!, kHeadImageUrlAppend, nowTimeString)
+            //头像的url
+            let imageUrl = array[i].avatar!
             
             let customView = DNewPeopleView(frame: frame, imageUrl: imageUrl, name: model.nickname!, detail: model.game_name!)
             

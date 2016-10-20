@@ -28,7 +28,7 @@ class DCustomTabBarViewController: UITabBarController {
             
             ["title": "推荐", "image": "btn_home_normal","selectionImage": "btn_home_selected", "class": "douyuDemo.DRecommendViewController"],
             ["title": "栏目", "image": "btn_column_normal","selectionImage": "btn_column_selected", "class": "douyuDemo.DcolumnViewController"],
-            ["title": "直播", "image": "btn_live_normal","selectionImage": "btn_live_selected", "class": "douyuDemo.ViewController"],
+            ["title": "直播", "image": "btn_live_normal","selectionImage": "btn_live_selected", "class": "douyuDemo.DLiveListViewController"],
             ["title": "我的", "image": "btn_user_normal", "selectionImage": "btn_user_selected","class": "douyuDemo.DMyViewController"]
             
         ]

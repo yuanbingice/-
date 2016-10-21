@@ -9,7 +9,6 @@
 //封装的用来注册 和 获取cell的泛型方法
 
 
-
 import UIKit
 
 // 可从 xib 加载协议
@@ -18,8 +17,6 @@ protocol NibLoadable {
 	
 	static var cs_nibName: String { get }
 }
-
-
 
 // 给 UITableViewCell、UICollectionReusableView、UITableViewHeaderFooterView 添加从xib 加载的协议  //遵守协议
 extension UITableViewCell: NibLoadable {

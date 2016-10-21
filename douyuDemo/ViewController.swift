@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         //子类视图全部继承的
         self.view.backgroundColor = UIColor.randomColor()
         
+        //有导航器的会实现
         self.navigationController!.navigationBar.barTintColor = UIColor.myColor()
         
         self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()

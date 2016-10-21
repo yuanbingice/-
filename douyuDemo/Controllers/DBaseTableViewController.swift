@@ -44,7 +44,7 @@ class DBaseTableViewController: ViewController {
             
             make.left.right.equalTo(0)
             make.top.equalTo(64)
-            make.bottom.equalTo(49)
+            make.bottom.equalTo(-49) //比底部小就应该为负数,右侧也类似
         }
         
     }
